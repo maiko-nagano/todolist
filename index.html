@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDoリスト</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- ↓↓↓↓↓↓↓↓↓↓↓↓↓↓ ここから下に、ブラウザに表示したい内容を記述する ↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+    <div id="app" class="wrapper">
+      <h1 class="title">ToDoリスト</h1>
+      <div class="task-add-panel">
+        <input type="text" id="todoText" class="input-field" />
+        <button id="addTodoBtn" class="btn">追加</button>
+        <button id="deleteTodoBtn" class="btn btn-delete">全削除</button>
+      </div>
+
+      <div class="task-show-panel">
+        <h2 class="title">やること</h2>
+        <ul id="todoList"></ul>
+      </div>
+
+      <div class="task-done-panel">
+        <h2 class="title">終わったこと</h2>
+        <ul id="completedList"></ul>
+    </div>
+
+    </div>
+    <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑ ここから上に、ブラウザに表示したい内容を記述する ↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

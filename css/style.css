@@ -1,0 +1,77 @@
+body {
+  background-color: paleturquoise;
+}
+
+.wrapper {
+  padding: 80px;
+  max-width: 400px;
+  margin-inline: auto;
+}
+
+.title {
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.task-add-panel {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.task-show-panel {
+  background-color: pink;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 24px;
+}
+.task-show-panel li {
+  padding: 10px;
+}
+
+.task-done-panel {
+  background-color: pink;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 24px;
+}
+
+.task-done-panel li {
+  padding: 10px;
+}
+
+.input-field {
+  width: 240px;
+  padding: 6px 8px;
+}
+
+.btn {
+  width: 72px;
+  margin-left: 16px;
+  padding: 6px 8px;
+  background-color: cornflowerblue;
+  border: none;
+  color: #fff;
+  appearance: none;
+  cursor: pointer;
+}
+
+.btn-delete {
+  background-color: tomato;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-item button {
+  background-color: olivedrab; /* ボタンの背景色を変更 */
+  color: #FFFFFF; /* ボタンのテキスト色を変更 */
+  border: none; /* ボーダーを削除 */
+  padding: 5px 10px; /* ボタンのパディングを調整 */
+  cursor: pointer; /* カーソルをポインターに変更 */
+}
